@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class BotonAzul extends StatelessWidget {
 
   final String text;
-  final Function onPressed;
+  final  onPressed;
 
 
   const BotonAzul({
@@ -16,7 +16,7 @@ class BotonAzul extends StatelessWidget {
   Widget build(BuildContext context) {
    return   ElevatedButton(
     
-            onPressed: this.onPressed(),
+            onPressed: this.onPressed,
             
             style: ElevatedButton.styleFrom(
               // Styling is now handled in the 'style' property
